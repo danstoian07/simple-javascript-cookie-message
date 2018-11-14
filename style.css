@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+#content {
+    margin: 1em;
+}
+#cookie-message {
+    display: none;
+    background-color: rgba(102, 193, 230, 0.5);
+    color: #565656;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    z-index: 999999;
+    box-shadow: 0px -10px 5px -10px #999;
+}
+#cookie-btn {
+    background-color: #164a5f;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
